@@ -36,6 +36,7 @@ We can see that Ridge gives us the lowest MSE when log($\lambda$) is less than 8
 For this part of the project, we still fitted the same four models but this time we didn't divide the data into test and training sets and there was no loop. In this section we look into variable importance.
 
 ![Variable Importance](images/varim.png)
+
 We can see that for all four models, volume of relevant tweets is important. For lasso, ridge and elastic net, volatility of the stock is most prominent with negative coefficient. Random forest has several important variables including Reddit comments, Very Bearish Tweets, etc.
 
 ### Part III: Accuracy Vs. Time 
