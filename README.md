@@ -42,6 +42,7 @@ We can see that for all four models, volume of relevant tweets is important. For
 In this part, we compute 90% confidence interval of the R-squares from part one and time it took to cross validate and/or fit the models once from part II. Below is the tables:
 
 ![Accuracy Vs. Time](images/time.png)
+
 As we can see from the above figure, it takes 0.2 seconds to cross validate and fit lass, ridge and elastic net. But it takes 11.8 seconds to fit random forest, which performs much better than the other three. So is the improved accuracy worth increased time?
 
 ## Conclusion
