@@ -30,7 +30,7 @@ Both the train and test residuals are very similar for all four models. We can a
 Then we also plotted the cross validation curves of elastic net, lasso and ridge for the 100th iteration. They are given below:
 ![Cross Validation Curves](images/cv.png)
 
-We can see that Ridge gives us the lowest MSE when log($\lambda$) is less than 8. As for elastic net, it gives the lowest MSE for log($\lambda$) values between about 5 and 7. And Lasso gives the lowest MSE when log($\lambda$) is between 3.8 and 6. 
+We can see that Ridge gives us the lowest MSE when log(lambda) is less than 8. As for elastic net, it gives the lowest MSE for log(lambda) values between about 5 and 7. And Lasso gives the lowest MSE when log(lambda) is between 3.8 and 6. 
 
 ### Part II: Variable Importance
 For this part of the project, we still fitted the same four models but this time we didn't divide the data into test and training sets and there was no loop. In this section we look into variable importance.
