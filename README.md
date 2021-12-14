@@ -14,12 +14,12 @@ The response variable is bitcoin stock price.
 
 ## Model fitting and Analysis
 ### Part I: R-Square, Residuals and Cross Validation Curves
-We used 10-fold cross validation to tune the lambda values and use the minimum lambda value from cross validation to fit lasso, ridge and elastic net. We also fitted random forest. We repeated this 100 times and, training and test r-squared, test and training residuals were computed each time. Below are the boxplots:
+We used 10-fold cross validation to tune the lambda values and use the minimum lambda value from cross validation to fit lasso, ridge and elastic net. We also fitted random forest. We repeated this 100 times and, training and test r-square, test and training residuals were computed each time. Below are the boxplots:
 
-#### <u>R-Squared</u>
-![R-Squared](images/r-square.png)
+#### <u>R-Square</u>
+![R-Square](images/r-square.png)
 
-All four models performed similarly on the training and test data. But test $R^2$ values has more variation compared to the training $R^2$ values. Performance of Elastic Net and Lasso is very similar to one another. Ridge regression performs slightly poor than both but above 70% for $R^2$ is still decent. Random Forest performs the best, it can account of more than 90% of the variation.
+All four models performed similarly on the training and test data. But test R-square values has more variation compared to the training R-square values. Performance of Elastic Net and Lasso is very similar to one another. Ridge regression performs slightly poor than both but above 70% for R-square is still decent. Random Forest performs the best, it can account of more than 90% of the variation.
 
 #### <u>Residuals</u>
 ![Residuals](images/residual.png)
