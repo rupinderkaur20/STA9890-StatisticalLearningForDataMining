@@ -19,7 +19,7 @@ We used 10-fold cross validation to tune the lambda values and use the minimum l
 #### <u>R-Square</u>
 ![R-Square](images/r-square.png)
 
-All four models performed similarly on the training and test data. But test R-square values has more variation compared to the training R-square values. Performance of Elastic Net and Lasso is very similar to one another. Ridge regression performs slightly poor than both but above 70% for R-square is still decent. Random Forest performs the best, it can account of more than 90% of the variation.
+All four models performed similarly on the training and test data. But test r-square values has more variation compared to the training r-square values. Performance of Elastic Net and Lasso is very similar to one another. Ridge regression performs slightly poor than both but above 70% for r-square is still decent. Random Forest performs the best, it can account of more than 90% of the variation.
 
 #### <u>Residuals</u>
 ![Residuals](images/residual.png)
