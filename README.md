@@ -40,7 +40,7 @@ For this part of the project, we still fitted the same four models but this time
 We can see that for all four models, volume of relevant tweets is important. For lasso, ridge and elastic net, volatility of the stock is most prominent with negative coefficient. Random forest has several important variables including Reddit comments, Very Bearish Tweets, etc.
 
 ### Part III: Accuracy Vs. Time 
-In this part, we compute 90% confidence interval of the R-squares from part one and time it took to cross validate and/or fit the models once from part II. Below is the tables:
+In this part, we compute 90% confidence interval of the r-squares from part one and time it took to cross validate and/or fit the models once from part II. Below is the table:
 
 ![Accuracy Vs. Time](images/time.png)
 
