@@ -45,7 +45,6 @@ k = 10
 
 # empty Data frame to store R-squares
 rsq.df = data.frame(matrix(0, nrow = k * 4, ncol = 4))
-
 # changing the names of the column
 names(rsq.df) = c("loop", "model", "train_rsq", "test_rsq")
 
